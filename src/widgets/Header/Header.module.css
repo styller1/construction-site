@@ -1,0 +1,74 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.leftText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftText p {
+    margin: 0;
+    font-size: 13px;
+    padding-left: 0px;
+}
+
+.left h2{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.middle{
+    width: 50%;
+    font-size: 18px;
+    border-left: 4px gray solid;
+    padding-left: 19px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:  0px;
+}
+
+.right{
+    width: 20%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.NawBar{
+    display: flex;
+    justify-content: center;
+}
+
+.NawBar ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.NawBar ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.NawBar ul li a{
+    text-decoration: none;
+    color: black;
+}

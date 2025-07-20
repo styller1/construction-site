@@ -1,0 +1,101 @@
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.Main {
+  margin-top: 40px;
+}
+
+.top {
+  position: relative;
+}
+
+.top img {
+  width: 1300px;
+  height: 450px;
+}
+
+.top h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.middle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.middle h2 {
+  text-align: center;
+  width: 820px;
+  height: 28px;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-thickness: 1.3px;
+  text-decoration-color: rgba(0, 0, 0, 0.504);
+}
+
+.middle p {
+  font-weight: 400;
+  width: 100%;
+  max-width: 1000px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bottom {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.flagImg {
+  width: 440px;
+  height: 300px;
+  margin-left: -100px;
+}
+
+.flag {
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.treeImage {
+  position: absolute;
+  top: 10%;
+  left: 19%;
+  width: 700px;
+  height: auto;
+}
+
+.tree {
+  position: absolute;
+  top: 40%;
+  right: 43%;
+  z-index: 1;
+}
+
+.tree button {
+  width: 190px;
+  height: 63px;
+  font-size: 14px;
+  background: linear-gradient(90deg, #ffc46b 0%, #ffb115 100%);
+  border: none;
+  border-radius: 9px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
