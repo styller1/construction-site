@@ -12,6 +12,20 @@
 
 .active{
     text-decoration: underline !important;
-    
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.active ul,  li{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.active ul,  li:hover{
+    background-color: rgba(111, 111, 111, 0.503);
+    color: white !important;
+}
+
+li:hover a {
+  color: white !important;
 }
